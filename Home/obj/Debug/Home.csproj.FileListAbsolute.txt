@@ -1,0 +1,6 @@
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UXFrameworks\Home\bin\Home.dll.config
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UXFrameworks\Home\bin\Home.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UXFrameworks\Home\bin\Home.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UXFrameworks\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UXFrameworks\Home\obj\Debug\Home.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UXFrameworks\Home\obj\Debug\Home.pdb

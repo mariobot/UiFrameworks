@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15D5AB51-B620-48D8-B3EE-6AE3605825F5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Blueprint</RootNamespace>
+    <AssemblyName>Blueprint</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="blueprint\ie.css" />
+    <Content Include="blueprint\plugins\buttons\icons\cross.png" />
+    <Content Include="blueprint\plugins\buttons\icons\key.png" />
+    <Content Include="blueprint\plugins\buttons\icons\tick.png" />
+    <Content Include="blueprint\plugins\buttons\readme.txt" />
+    <Content Include="blueprint\plugins\buttons\screen.css" />
+    <Content Include="blueprint\plugins\fancy-type\readme.txt" />
+    <Content Include="blueprint\plugins\fancy-type\screen.css" />
+    <Content Include="blueprint\plugins\link-icons\icons\doc.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\email.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\external.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\feed.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\im.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\lock.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\pdf.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\visited.png" />
+    <Content Include="blueprint\plugins\link-icons\icons\xls.png" />
+    <Content Include="blueprint\plugins\link-icons\readme.txt" />
+    <Content Include="blueprint\plugins\link-icons\screen.css" />
+    <Content Include="blueprint\plugins\rtl\readme.txt" />
+    <Content Include="blueprint\plugins\rtl\screen.css" />
+    <Content Include="blueprint\print.css" />
+    <Content Include="blueprint\screen.css" />
+    <Content Include="blueprint\src\forms.css" />
+    <Content Include="blueprint\src\grid.css" />
+    <Content Include="blueprint\src\grid.png" />
+    <Content Include="blueprint\src\ie.css" />
+    <Content Include="blueprint\src\print.css" />
+    <Content Include="blueprint\src\reset.css" />
+    <Content Include="blueprint\src\typography.css" />
+    <Content Include="debug\debug.css" />
+    <Content Include="debug\debug.html" />
+    <Content Include="features\support\jquery.js" />
+    <Content Include="lib\blueprint\validate\COPYRIGHT.html" />
+    <Content Include="lib\blueprint\validate\css-validator-javadoc.jar" />
+    <Content Include="lib\blueprint\validate\css-validator.jar" />
+    <Content Include="lib\blueprint\validate\jigsaw.jar" />
+    <Content Include="lib\blueprint\validate\README.html" />
+    <Content Include="lib\blueprint\validate\xerces.jar" />
+    <Content Include="lib\blueprint\validate\XERCES_COPYING.txt" />
+    <Content Include="tests\index.html" />
+    <Content Include="tests\parts\elements.html" />
+    <Content Include="tests\parts\forms.html" />
+    <Content Include="tests\parts\grid.html" />
+    <Content Include="tests\parts\plugins\link-icons.html" />
+    <Content Include="tests\parts\sample.html" />
+    <Content Include="tests\parts\test-small.jpg" />
+    <Content Include="tests\parts\test.jpg" />
+    <Content Include="tests\parts\valid.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AUTHORS.textile" />
+    <Content Include="CHANGELOG" />
+    <Content Include="debug\README.textile" />
+    <Content Include="features\generate_stylesheets.feature" />
+    <Content Include="features\step_definitions\blueprint_steps.rb" />
+    <Content Include="features\support\blueprint_app.rb" />
+    <Content Include="features\support\blueprint_helpers.rb" />
+    <Content Include="features\support\document_element.rb" />
+    <Content Include="features\support\element_helpers.rb" />
+    <Content Include="features\support\env.rb" />
+    <Content Include="Gemfile" />
+    <Content Include="Gemfile.lock" />
+    <Content Include="lib\blueprint\blueprint.rb" />
+    <Content Include="lib\blueprint\compressor.rb" />
+    <Content Include="lib\blueprint\core_ext.rb" />
+    <Content Include="lib\blueprint\css_parser.rb" />
+    <Content Include="lib\blueprint\custom_layout.rb" />
+    <Content Include="lib\blueprint\grid.css.erb" />
+    <Content Include="lib\blueprint\grid_builder.rb" />
+    <Content Include="lib\blueprint\namespace.rb" />
+    <Content Include="lib\blueprint\semantic_class_names.rb" />
+    <Content Include="lib\blueprint\validate\JIGSAW_COPYRIGHT" />
+    <Content Include="lib\blueprint\validator.rb" />
+    <Content Include="lib\compress.rb" />
+    <Content Include="lib\settings.example.yml" />
+    <Content Include="lib\validate.rb" />
+    <Content Include="LICENSE" />
+    <Content Include="Rakefile" />
+    <Content Include="README.textile" />
+    <Content Include="templates\psd\fixed-width.psd" />
+    <Content Include="TUTORIAL.textile" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53460</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53460/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Initializr\bin\Initializr.dll.config
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Initializr\bin\Initializr.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Initializr\bin\Initializr.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Initializr\obj\Debug\Initializr.csprojResolveAssemblyReference.cache
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Initializr\obj\Debug\Initializr.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Initializr\obj\Debug\Initializr.pdb
