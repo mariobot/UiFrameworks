@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Jquery</title>
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/jquery-2.1.4.intellisense.js"></script>
+</head>
+<body>
+    <h1>jQuery</h1>
+    <p>Pagina de inicio para la practica de jQuery</p>
+    <h3>Recordar!!!</h3>
+    <p>Siempre realizar la referencia a las librerias jQuery</p>
+    <p>
+        Ej:
+        < script src="Scripts/jquery-2.1.4.js" >< /script >
+    </p>
+    <hr />
+    <label>Tengo la ultima version: </label>
+    <input type="button" id="btnCheck"  value="Verificar Version jQuery" onclick="chkjQuery" />
+    <hr />
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function(){
+        alert("Hola mundo jQuery");
+        $("#btnCheck").click(function () {
+            alert("Tengo la version 2.1.4 de jQuery implementada en esta pagina.");
+        });
+    });
+</script>
