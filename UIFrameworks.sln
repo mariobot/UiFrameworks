@@ -15,13 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Initializr", "Initializr\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoundationMVC", "FoundationMVC\FoundationMVC.csproj", "{B7C7FF49-8501-472A-B87E-8E1CD43FD83B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{90A7F335-849C-4E4E-86EC-818BBF5CBB0A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryMobile", "JQueryMobile\JQueryMobile.csproj", "{59AA4748-AFF3-4F76-A9C0-988AD945D245}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryUI", "JQueryUI\JQueryUI.csproj", "{ED8000E0-80F3-475A-B326-681F90E055C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQuery", "JQuery\JQuery.csproj", "{FEB638E5-A618-438F-954E-4DF4E19AC52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{47E99F73-1F20-4C1D-80A6-0AE3E3D663A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +53,6 @@ Global
 		{B7C7FF49-8501-472A-B87E-8E1CD43FD83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7C7FF49-8501-472A-B87E-8E1CD43FD83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7C7FF49-8501-472A-B87E-8E1CD43FD83B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{90A7F335-849C-4E4E-86EC-818BBF5CBB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{90A7F335-849C-4E4E-86EC-818BBF5CBB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{90A7F335-849C-4E4E-86EC-818BBF5CBB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{90A7F335-849C-4E4E-86EC-818BBF5CBB0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{59AA4748-AFF3-4F76-A9C0-988AD945D245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{59AA4748-AFF3-4F76-A9C0-988AD945D245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59AA4748-AFF3-4F76-A9C0-988AD945D245}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +65,10 @@ Global
 		{FEB638E5-A618-438F-954E-4DF4E19AC52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB638E5-A618-438F-954E-4DF4E19AC52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB638E5-A618-438F-954E-4DF4E19AC52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E99F73-1F20-4C1D-80A6-0AE3E3D663A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E99F73-1F20-4C1D-80A6-0AE3E3D663A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E99F73-1F20-4C1D-80A6-0AE3E3D663A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E99F73-1F20-4C1D-80A6-0AE3E3D663A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
