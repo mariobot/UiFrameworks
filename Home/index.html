@@ -17,134 +17,152 @@
                   width: 200px;
               }
     </style>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.intellisense.js"></script>
 </head>
 <body>
-    <header>
-        <h1>UI Frameworks</h1>
-        <h3>Frameworks de front end</h3>
-        <p>Solucion en Visual Studio para conocer 5 freameworks de fornt ends aplicados en proyectos De Visual Studio</p>
-    </header>
-    <content id="container">
-        <div id="navbar">
-            <p>Cada uno de los proyectos</p>
-            <ul>
-                <li><a href="" target="_blank">HOME</a></li>
-                <li><a href="" target="_blank">BOOTSTRAP</a></li>
-                <li><a href="" target="_blank">FOUNDATION</a></li>
-                <li><a href="http://localhost:10005/index.html" target="_blank">JQUERY</a></li>
-                <li><a href="" target="_blank">JQUERY MOBILE</a></li>
-                <li><a href="" target="_blank">JQUERY UI</a></li>
-                <li><a href="" target="_blank">INITIALZR</a></li>
-                <li><a href="http://localhost:10008/" target="_blank">BLUEPRINT</a></li>
 
-            </ul>
-            <br />
-            <br />
-            <br />
-            design by
-            <a href="https://about.me/mariobot" target="_blank">@MaRioBoT</a>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">UI Frameworks</a>
+                <a href="#" class="btn btn-default">Bootstrap</a>
+                <a href="#" class="btn btn-default">Default</a>
+                <a href="#" class="btn btn-danger">Danger</a>
+                <a href="#" class="btn btn-success">Success</a>
+                <a href="#" class="btn btn-warning">Warning</a>
+                <a href="#" class="btn btn-info">Info</a>
+                <a href="#" class="btn btn-primary">Primary</a>
+            </div>
         </div>
-        <div id="content">
-            <hr />
-            <p>Son cinco proyecto de front end implementados como proyectos independientes.</p>
-            <p>Tenga toda la voluntad de trabajar en ellos modificarlos y aportar en la comunidad para que otras personas aprendan, y apliquen las mejores practicas con cualquiera de los frameworks. </p>
-            <p>Cada uno de los framewoks sera descrito con los Pros y Desventajas</p>
-            <hr />
-            <div class="auto">
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>UI Frameworks</h1>
+            <h3>Frameworks de front end</h3>
+            <p>Solucion en Visual Studio para conocerfreameworks de fornt ends aplicados en proyectos De Visual Studio</p>
+            <p> design by <a href="https://about.me/mariobot" target="_blank">@MaRioBoT</a></p>
+            <p>Cada uno de los proyectos</p>
+            <a href="" target="_blank" class="btn btn-primary">HOME</a>
+            <a href="" target="_blank" class="btn btn-primary">BOOTSTRAP</a>
+            <a href="" target="_blank" class="btn btn-primary">FOUNDATION</a>
+            <a href="http://localhost:10005/index.html" target="_blank" class="btn btn-primary">JQUERY</a>
+            <a href="" target="_blank" class="btn btn-primary">JQUERY MOBILE</a>
+            <a href="" target="_blank" class="btn btn-primary">JQUERY UI</a>
+            <a href="" target="_blank" class="btn btn-primary">INITIALZR</a>
+            <a href="http://localhost:10008/" class="btn btn-primary" target="_blank">BLUEPRINT</a>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-4">
                 <table>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td><h1>Bootstrap</h1></td>
+                        <td>
+                            <img src="" class="img-responsive img-thumbnail" alt="Bootstrap" />
+		    </td>
                     </tr>
                 </table>
-                <h1>Bootstrap</h1>
-                <a href="" target="_blank">Pagina Original </a><a href="">Tutorial </a><a href="#">Descarga</a>
+                <a href="http://getbootstrap.com/" class="btn btn-primary" target="_blank">Pagina Oficial </a><a href="http://getbootstrap.com/getting-started/" class="btn btn-success">Tutorial </a><a href="http://getbootstrap.com/getting-started/#download" class="btn btn-info">Descarga</a>
                 <p>Este es el papa de los pollitos, gracias a este framework propuesto por Twitter e implementado por ellos la idea de organizar los frameworks de diseños se popularizo y es actualmete uno de los mas utilizados</p>
                 <p>Proporciono un estantad para la programacion responsive design</p>
                 <p>Es uno de los frameworks de mayor implementacion en la actualidad</p>
             </div>
-            <div class="auto">
-                <table>
-                    <tr>
-                        <td><h1>Foundation</h1></td>
-                        <td></td>
-                    </tr>
-                </table>
-
-                <a href="">Pagina Oficial </a><a href="#">Tutoriales </a><a href="#">Descarga</a>
-                <p>Este framework tiene su plus en el manejo de grillas, muy estable y con un excelente soporte y grupo de capacitacion</p>
-                <p>Es una plataforma interesante para las personas que se quieren paradigmas y que depronto estan aburridos de bootstrap pero quieran mejorar</p>
-                <p></p>
-            </div>
-            <div class="auto">
-                <table>
-                    <tr>
-                        <td><h1>Initializr</h1></td>
-                        <td></td>
-                    </tr>
-                </table>
-                
-                <a href="">Pagina Original </a><a href="#">Tutorial </a><a href="#">Descarga</a>
-                <p>Pagina de referentes html para iniciar un proyecto en pocos minutos</p>
-                <p>Muy recomendado para cuando vallan a necesitar empezar un proyecto con los estandares mas basicos de diseño pero con buenas practicas html</p>
-            </div>
-            <div class="auto">
-                <table>
-                    <tr>
-                        <td><h1>Blueprint</h1></td>
-                        <td></td>
-                    </tr>
-                </table>
-                
-                <a href="http://localhost:10008/">Pagina Oficial </a><a href="#">Tutorial </a><a href="#">Descarga</a>
-                <p>Framework totalmente responsive para entornos que necesiten manejar mucho contenido visual y de texto, por ejemplo portales de noticias, imagenes, blog tecnico, wiki, etc</p>
-                <p>Open Source y con un grupo muy bien estandarizado para el desarrollo y soporte/p>
-            </div>
-            <div class="auto">
-                <table>
-                    <tr>
-                        <td><h1>jQuery</h1></td>
-                        <td></td>
-                    </tr>
-                </table>
-                
-                <a href="">Pagina Oficial </a><a href="#">Tutorial </a> <a href="#">Descarga</a>
-                <p>Si nunca has escuchado de este framework javascript.... (EN QUE PLANETA VIVES QUE CARAJOS HACES LEYENDO ESTO)</p>
-                <p>Es un framework implementado para la mayoria de los frameworks de front end</p>
-                <p>Este framework provee un modo facil y amigable para implementar javascript, sus funciones y utilidades hacen que hoy en dia programar javascript sea amigable y util</p>
-            </div>
-            <div class="auto">
+            <div class="col-md-4">
                 <table>
                     <tr>
                         <td><h1>jQuery UI</h1></td>
                         <td></td>
                     </tr>
                 </table>
-                
-                <a href="">Pagina Oficial </a><a href="#">Tutorial </a> <a href="#">Descarga</a>
+                <a href="" class="btn btn-primary" target="_blank">Pagina Original </a><a href="" class="btn btn-success">Tutorial </a><a href="#" class="btn btn-info">Descarga</a>
                 <p>Complemento ideal para sacar ventaja de componentes vizuales con jquery</p>
                 <p>Framework ideal para interaccion de controles web con jquery</p>
             </div>
-            <div class="auto">
+            <div class="col-md-4">
                 <table>
                     <tr>
                         <td><h1>jQueryMobile</h1></td>
                         <td></td>
                     </tr>
                 </table>
-                
-                <a href="">Pagina Oficial </a><a href="#">Tutorial </a> <a href="#">Descarga</a>
+                <a href="" class="btn btn-primary" target="_blank">Pagina Original </a><a href="" class="btn btn-success">Tutorial </a><a href="#" class="btn btn-info">Descarga</a>
                 <p>Framework para utilizar controles web optimizados para dispositivos moviles.</p>
             </div>
         </div>
-    </content>
-    
-   
+        <div class="row">
+            <div class="col-md-4">
+                <table>
+                    <tr>
+                        <td><h1>Foundation</h1></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <a href="" class="btn btn-primary" target="_blank">Pagina Original </a><a href="" class="btn btn-success">Tutorial </a><a href="#" class="btn btn-info">Descarga</a>
+                <p>Este framework tiene su plus en el manejo de grillas, muy estable y con un excelente soporte y grupo de capacitacion</p>
+                <p>Es una plataforma interesante para las personas que se quieren paradigmas y que depronto estan aburridos de bootstrap pero quieran mejorar</p>
+                <p></p>
+            </div>
+            <div class="col-md-4">
+                <table>
+                    <tr>
+                        <td><h1>Blueprint</h1></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <a href="http://localhost:10008/">Pagina Oficial </a><a href="#">Tutorial </a><a href="#">Descarga</a>
+                <a href="" class="btn btn-primary" target="_blank">Pagina Original </a><a href="" class="btn btn-success">Tutorial </a><a href="#" class="btn btn-info">Descarga</a>
+                <p>Framework totalmente responsive para entornos que necesiten manejar mucho contenido visual y de texto, por ejemplo portales de noticias, imagenes, blog tecnico, wiki, etc</p>
+                <p>Open Source y con un grupo muy bien estandarizado para el desarrollo y soporte </p>
+            </div>
+            <div class="col-md-4">
+                <table>
+                    <tr>
+                        <td><h1>jQuery</h1></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <a href="" class="btn btn-primary" target="_blank">Pagina Original </a><a href="" class="btn btn-success">Tutorial </a><a href="#" class="btn btn-info">Descarga</a>
+                <p>Si nunca has escuchado de este framework javascript.... (EN QUE PLANETA VIVES QUE CARAJOS HACES LEYENDO ESTO)</p>
+                <p>Es un framework implementado para la mayoria de los frameworks de front end</p>
+                <p>Este framework provee un modo facil y amigable para implementar javascript, sus funciones y utilidades hacen que hoy en dia programar javascript sea amigable y util</p>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <table>
+                    <tr>
+                        <td><h1>Initializr</h1></td>
+                        <td></td>
+                    </tr>
+                </table>
 
+                <a href="" class="btn btn-primary" target="_blank">Pagina Original </a><a href="" class="btn btn-success">Tutorial </a><a href="#" class="btn btn-info">Descarga</a>
+                <p>Pagina de referentes html para iniciar un proyecto en pocos minutos</p>
+                <p>Muy recomendado para cuando vallan a necesitar empezar un proyecto con los estandares mas basicos de diseño pero con buenas practicas html</p>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
     <footer>
-        Este tutorial fue desarrollado por: <a href="https://about.me/mariobot">@MaRioBoT</a>
-        <br />
-        <a style="color: white" href="http://localhost:10009/index.html">link a proyecto skeleton</a>
+        <center>
+            Este tutorial fue desarrollado por: <a href="https://about.me/mariobot">@MaRioBoT</a>
+            <br />
+            <a style="color: white" href="http://localhost:10009/index.html">link a proyecto skeleton</a>
+        </center>
     </footer>
 </body>
 </html>
