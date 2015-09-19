@@ -158,6 +158,11 @@
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Images\bossbossboss.jpg" />
+    <Content Include="Images\Caminos.jpeg" />
+    <Content Include="Images\iceberg.jpg" />
+    <Content Include="Images\if_you.jpeg" />
+    <Content Include="Images\NoOlvidesQuiesEstuvoAhi.jpg" />
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
@@ -184,6 +189,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Images.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -16,5 +16,10 @@ namespace Materializecss.Controllers
             return View();
         }
 
+        public ActionResult Images()
+        {
+	  return View();
+        }
+
     }
 }
