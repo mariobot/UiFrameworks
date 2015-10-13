@@ -8,18 +8,24 @@ namespace Materializecss.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
-
         public ActionResult Index()
         {
             return View();
+        }      
+
+        public ActionResult Buttons()
+        {
+	  return View(); 
         }
 
-        public ActionResult Images()
+        public ActionResult Cards()
         {
 	  return View();
         }
 
+        public ActionResult Collapsible() 
+        {
+	  return View();
+        }
     }
 }
