@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>\\192.168.1.89\wwwroot\demo</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Home.dll">
+      <publishTime>11/05/2015 09:15:30</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/29/2015 15:07:12</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>10/28/2015 15:46:42</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/29/2015 14:56:52</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>08/29/2015 14:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>08/29/2015 14:56:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>08/29/2015 14:56:50</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/05/2015 09:15:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

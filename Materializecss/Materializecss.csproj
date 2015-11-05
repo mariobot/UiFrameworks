@@ -157,6 +157,7 @@
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.woff" />
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
+    <None Include="Properties\PublishProfiles\Demo.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Images\bossbossboss.jpg" />
     <Content Include="Images\Caminos.jpeg" />
