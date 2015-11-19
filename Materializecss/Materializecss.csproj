@@ -193,6 +193,9 @@
     <Content Include="Views\Home\Buttons.cshtml" />
     <Content Include="Views\Home\Cards.cshtml" />
     <Content Include="Views\Home\Collapsible.cshtml" />
+    <Content Include="Views\Home\Typography.cshtml" />
+    <Content Include="Views\Home\Media.cshtml" />
+    <Content Include="Views\Home\Forms.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -27,5 +27,11 @@ namespace Materializecss.Controllers
         {
 	  return View();
         }
+
+        public ActionResult Typography() { return View(); }
+
+        public ActionResult Media() { return View(); }
+
+        public ActionResult Forms() { return View(); }
     }
 }
