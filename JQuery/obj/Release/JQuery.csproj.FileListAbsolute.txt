@@ -1,0 +1,5 @@
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQuery\bin\JQuery.dll.config
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQuery\bin\JQuery.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQuery\bin\JQuery.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQuery\obj\Release\JQuery.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQuery\obj\Release\JQuery.pdb

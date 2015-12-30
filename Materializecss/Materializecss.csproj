@@ -158,6 +158,8 @@
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.ttf" />
     <Content Include="Content\materialize\font\material-design-icons\Material-Design-Icons.eot" />
     <None Include="Properties\PublishProfiles\Demo.pubxml" />
+    <None Include="Properties\PublishProfiles\uiframeworks - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\uiframeworks - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Images\bossbossboss.jpg" />
     <Content Include="Images\Caminos.jpeg" />
@@ -196,6 +198,9 @@
     <Content Include="Views\Home\Typography.cshtml" />
     <Content Include="Views\Home\Media.cshtml" />
     <Content Include="Views\Home\Forms.cshtml" />
+    <Content Include="Views\Home\Dialogs.cshtml" />
+    <Content Include="Views\Home\Modals.cshtml" />
+    <Content Include="Views\Home\Tabs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

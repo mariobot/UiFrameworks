@@ -59,6 +59,8 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\uiframeworks - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\uiframeworks - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />

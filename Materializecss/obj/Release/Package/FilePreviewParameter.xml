@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="uiframeworks" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\JuanGuillermo\\Documents\\Visual\ Studio\ 2013\\Projects\\UiFrameworks\\Materializecss\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\JuanGuillermo\\Documents\\Visual\ Studio\ 2013\\Projects\\UiFrameworks\\Materializecss\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-Materializecss-20150909153122;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-Materializecss-20150909153122.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\JuanGuillermo\\Documents\\Visual\ Studio\ 2013\\Projects\\UiFrameworks\\Materializecss\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

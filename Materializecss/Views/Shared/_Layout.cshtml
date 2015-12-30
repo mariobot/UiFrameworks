@@ -5,11 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
 
-    <link href="~/Content/materialize/css/materialize.css" rel="stylesheet" />
-    <script src="~/Scripts/materialize/materialize.min.js"></script>
-
-    @Styles.Render("~/Content/materialize")
-    @Scripts.Render("~/bundles/materialize")
+    <!-- link a los stilos de materialized-->
+    <link href="~/Content/materialize/css/materialize.css" rel="stylesheet" />    
 </head>
 <body>
     <header>
@@ -30,8 +27,7 @@
             <div class="col s3">
                 <div class="card blue-grey darken-1">
                     <div class="card-content white-text">
-                        <span class="card-title">Materialized CSS</span>
-                        <hr />
+                        @*<span class="card-title">Materialized CSS</span>*@
                         <ul class="collection">
                             <li class="collection-item">
                                 <a href="@Url.Action("Buttons", "Home")" class="btn">Buttons</a>
@@ -52,10 +48,13 @@
                                 <a href="@Url.Action("Media", "Home")" class="btn">Media</a>
                             </li>
                             <li class="collection-item">
-
+                                <a href="@Url.Action("Modals", "Home")" class="btn">Modals</a>
                             </li>
                             <li class="collection-item">
-
+                                <a href="@Url.Action("Tabs","Home")" class="btn">Tabs</a>
+                            </li>
+                            <li class="collection-item">
+                                <a href="@Url.Action("Dialogs", "Home")" class="btn">Dialogs</a>
                             </li>
                         </ul>
                     </div>
@@ -105,5 +104,6 @@
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
+
 </body>
 </html>
