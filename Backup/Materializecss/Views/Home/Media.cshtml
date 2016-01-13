@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Media with Materialized";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col s12 m12 l12">
+        <h1>Imagenes responsivas</h1>
+        <img src="~/Images/Caminos.jpeg" alt="Imagen responsiva" class="responsive-img" />
+        <hr />
+        <h1>Imagenes circulares</h1>
+        <div class="row">
+            <div class="col s12 m8 offset-m2 l6 offset-l3">
+                <div class="card-panel grey lighten-5 z-depth-1">
+                    <div class="row valign-wrapper">
+                        <div class="col s2">
+                            <img src="~/Images/if_you.jpeg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                        </div>
+                        <div class="col s10">
+                            <span class="black-text">
+                                Esta imagen aparecera redondeada. aplicar la clase circle y responsive-img.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <h1>Videos</h1>
+        <div class="row">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/facSt_45Yyk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <hr />
+        <h1>Responsive Video</h1>
+        <div class="row">
+            <video class="responsive-video" controls>                
+                <source src="movie.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
