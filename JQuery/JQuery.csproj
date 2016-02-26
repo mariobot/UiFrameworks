@@ -93,7 +93,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50248</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:10005/</IISUrl>
+          <IISUrl>http://localhost:10008/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
