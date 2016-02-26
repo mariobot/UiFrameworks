@@ -24,3 +24,35 @@ C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Materi
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Materializecss\obj\Debug\Materializecss.csprojResolveAssemblyReference.cache
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Materializecss\obj\Debug\Materializecss.dll
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Materializecss\obj\Debug\Materializecss.pdb
+C:\uiframeworks\Materializecss\bin\Materializecss.dll.config
+C:\uiframeworks\Materializecss\bin\Materializecss.dll
+C:\uiframeworks\Materializecss\bin\Materializecss.pdb
+C:\uiframeworks\Materializecss\bin\Antlr3.Runtime.dll
+C:\uiframeworks\Materializecss\bin\EntityFramework.dll
+C:\uiframeworks\Materializecss\bin\Microsoft.Web.Infrastructure.dll
+C:\uiframeworks\Materializecss\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\uiframeworks\Materializecss\bin\Newtonsoft.Json.dll
+C:\uiframeworks\Materializecss\bin\System.Net.Http.Formatting.dll
+C:\uiframeworks\Materializecss\bin\System.Web.Http.dll
+C:\uiframeworks\Materializecss\bin\System.Web.Http.WebHost.dll
+C:\uiframeworks\Materializecss\bin\System.Web.Mvc.dll
+C:\uiframeworks\Materializecss\bin\System.Web.Optimization.dll
+C:\uiframeworks\Materializecss\bin\System.Web.Providers.dll
+C:\uiframeworks\Materializecss\bin\System.Web.Razor.dll
+C:\uiframeworks\Materializecss\bin\System.Web.WebPages.Deployment.dll
+C:\uiframeworks\Materializecss\bin\System.Web.WebPages.dll
+C:\uiframeworks\Materializecss\bin\System.Web.WebPages.Razor.dll
+C:\uiframeworks\Materializecss\bin\WebGrease.dll
+C:\uiframeworks\Materializecss\bin\EntityFramework.xml
+C:\uiframeworks\Materializecss\bin\Newtonsoft.Json.xml
+C:\uiframeworks\Materializecss\bin\System.Net.Http.Formatting.xml
+C:\uiframeworks\Materializecss\bin\System.Web.Http.xml
+C:\uiframeworks\Materializecss\bin\System.Web.Http.WebHost.xml
+C:\uiframeworks\Materializecss\bin\System.Web.Mvc.xml
+C:\uiframeworks\Materializecss\bin\System.Web.Razor.xml
+C:\uiframeworks\Materializecss\bin\System.Web.WebPages.xml
+C:\uiframeworks\Materializecss\bin\System.Web.WebPages.Deployment.xml
+C:\uiframeworks\Materializecss\bin\System.Web.WebPages.Razor.xml
+C:\uiframeworks\Materializecss\obj\Debug\Materializecss.csprojResolveAssemblyReference.cache
+C:\uiframeworks\Materializecss\obj\Debug\Materializecss.dll
+C:\uiframeworks\Materializecss\obj\Debug\Materializecss.pdb
