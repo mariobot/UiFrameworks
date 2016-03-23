@@ -85,40 +85,49 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\foundation\foundation.css" />
-    <Content Include="Content\foundation\foundation.mvc.css" />
-    <Content Include="Content\foundation\normalize.css" />
-    <Content Include="Scripts\foundation\fastclick.js" />
-    <Content Include="Scripts\foundation\foundation.abide.js" />
-    <Content Include="Scripts\foundation\foundation.accordion.js" />
-    <Content Include="Scripts\foundation\foundation.alert.js" />
-    <Content Include="Scripts\foundation\foundation.clearing.js" />
-    <Content Include="Scripts\foundation\foundation.dropdown.js" />
-    <Content Include="Scripts\foundation\foundation.equalizer.js" />
-    <Content Include="Scripts\foundation\foundation.interchange.js" />
-    <Content Include="Scripts\foundation\foundation.joyride.js" />
-    <Content Include="Scripts\foundation\foundation.js" />
-    <Content Include="Scripts\foundation\foundation.magellan.js" />
-    <Content Include="Scripts\foundation\foundation.offcanvas.js" />
-    <Content Include="Scripts\foundation\foundation.orbit.js" />
-    <Content Include="Scripts\foundation\foundation.reveal.js" />
-    <Content Include="Scripts\foundation\foundation.slider.js" />
-    <Content Include="Scripts\foundation\foundation.tab.js" />
-    <Content Include="Scripts\foundation\foundation.tooltip.js" />
-    <Content Include="Scripts\foundation\foundation.topbar.js" />
-    <Content Include="Scripts\foundation\jquery.cookie.js" />
+    <Content Include="agency.html" />
+    <Content Include="Blog.html" />
+    <Content Include="css\app.css" />
+    <Content Include="css\foundation-flex.css" />
+    <Content Include="css\foundation-icons.css" />
+    <Content Include="css\foundation-rtl.css" />
+    <Content Include="css\foundation.css" />
+    <Content Include="css\foundation.min.css" />
+    <Content Include="ecommerce.html" />
+    <Content Include="img\100x100.png" />
+    <Content Include="img\2000x750text1st.png" />
+    <Content Include="img\2000x750text2nd.png" />
+    <Content Include="img\2000x750text3nd.png" />
+    <Content Include="img\2000x750text4nd.png" />
+    <Content Include="img\200x200.png" />
+    <Content Include="img\250x200.png" />
+    <Content Include="img\300x400.png" />
+    <Content Include="img\350x200.png" />
+    <Content Include="img\400x370text.png" />
+    <Content Include="img\550x550.png" />
+    <Content Include="img\650x350.png" />
+    <Content Include="img\750x350.png" />
+    <Content Include="img\850x350.png" />
+    <Content Include="index.html" />
+    <Content Include="InitPage.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\foundation.js" />
+    <Content Include="js\foundation.min.js" />
+    <Content Include="js\vendor\jquery.min.js" />
+    <Content Include="js\vendor\what-input.min.js" />
+    <Content Include="js\zcom.js" />
+    <Content Include="Portafolio.html" />
+    <Content Include="ProductPage.html" />
+    <Content Include="realState.html" />
+    <Content Include="SimpleBlog.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\Bundles\Foundation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="App_Readme\Foundation for sites\readme.md" />
+    <Content Include="complete-f6.zip" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -126,6 +135,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
