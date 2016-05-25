@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>@ViewBag.Title - about.me Application</title>
+    <title>@ViewBag.Title - Sobre mi Application</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @Styles.Render("~/Content/css")
@@ -17,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("about.me", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Sobre mi", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -30,10 +30,10 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        @RenderSection("SPAViews", required: false)
-        <hr />
-        <footer class="text-center">
-            <p>&copy; @DateTime.Now.Year - about.me Application - by: <a href="http://about.me/mariobot">MaRioBoT</a></p>
+        @RenderSection("SPAViews", required: false)        
+        <footer class="text-center navbar-fixed-bottom">
+            <hr />
+            <p>&copy; @DateTime.Now.Year - Sobre mi Application - by: <a href="http://about.me/mariobot">MaRioBoT</a> - from Manizales </p>
         </footer>
     </div>
 

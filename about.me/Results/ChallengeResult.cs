@@ -13,8 +13,8 @@ namespace about.me.Results
     {
         public ChallengeResult(string loginProvider, ApiController controller)
         {
-	  LoginProvider = loginProvider;
-	  Request = controller.Request;
+            LoginProvider = loginProvider;
+            Request = controller.Request;
         }
 
         public string LoginProvider { get; set; }
@@ -22,11 +22,11 @@ namespace about.me.Results
 
         public Task<HttpResponseMessage> ExecuteAsync(CancellationToken cancellationToken)
         {
-	  Request.GetOwinContext().Authentication.Challenge(LoginProvider);
+            Request.GetOwinContext().Authentication.Challenge(LoginProvider);
 
-	  HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.Unauthorized);
-	  response.RequestMessage = Request;
-	  return Task.FromResult(response);
+            HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.Unauthorized);
+            response.RequestMessage = Request;
+            return Task.FromResult(response);
         }
     }
 }

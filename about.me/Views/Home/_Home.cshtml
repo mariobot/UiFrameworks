@@ -25,18 +25,18 @@
     </div>
 
     <div class="col-md-4">
-        <h2>Actualiza tu perfil</h2>
+        <h2>Mi cuenta</h2>
         <p>
             Actuliza tu perfil, esta sera la informacion que se compartira en tu perfil, ten en cuenta que la informacion
-	  suministrada sera de acceso publico y tiene como finalidad ser una tarjeta de presentacion y contacto.             
+	        suministrada sera de acceso publico y tiene como finalidad ser una tarjeta de presentacion y contacto.             
         </p>
-        <p><a class="btn btn-default" href="#">Mi Perfil</a></p>
+        <p><a class="btn btn-default" href="@Url.Action("Index","Manage")">Mi Cuenta</a></p>
     </div>
 
     <div class="col-md-4">
         <h2>Comparte tu perfil</h2>
         <p>Comparte tu perfil en redes sociales, y aprovecha tener una carta de presentacion para todo el mundo</p>
-        <p><a class="btn btn-default" href=""></a></p>
+        @Html.Partial("_SocialMedia")
     </div>
 </div>
 
