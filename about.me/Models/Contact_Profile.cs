@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace about.me.Models
 {
@@ -9,24 +9,32 @@ namespace about.me.Models
     {
         public Contact_Profile() { }
 
-        public Int64 ID { get; set; }
-
-        public Int64 ID_Profile { get; set; }
+        [Key]
+        public Int64 Contact_ProfileID { get; set; }
+        
+        public Int64 ProfileID { get; set; }
+        [ForeignKey("ProfileID")]
+        public virtual Profile Profile { get; set; }
 
         public string Direction { get; set; }
 
         public string Phone { get; set; }
 
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
+        [DataType(DataType.Url)]
         public string Website { get; set; }
 
+        [DataType(DataType.Url)]
         public string Facebook { get; set; }
 
+        [DataType(DataType.Url)]
         public string Twitter { get; set; }
 
+        [DataType(DataType.Url)]
         public string  Linkedin { get; set; }
 
-        public ICollection<Profile> Profiles { get; set; }
+        //public virtual ICollection<Profile> Profiles { get; set; }
     }
 }

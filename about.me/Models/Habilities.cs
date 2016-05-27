@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace about.me.Models
 {
@@ -9,14 +9,18 @@ namespace about.me.Models
     {
         public Habilities() { }
 
-        public Int64 ID { get; set; }
+        [Key]
+        public Int64 HabilitiesID { get; set; }
 
-        public Int64 ID_Profile { get; set; }
+        [ForeignKey("ProfileID")]
+        public Int64 ProfileID { get; set; }
+        public virtual Profile Profile { get; set; }
 
-        public string Name { get; set; }
+        public string NameHability { get; set; }
 
+        [Range(0, 100, ErrorMessage = "Seleccione un valor de 0 a 100")]
         public int Porcentage { get; set; }
 
-        public ICollection<Profile> Profiles { get; set; }
+        //public virtual ICollection<Profile> Profiles { get; set; }
     }
 }

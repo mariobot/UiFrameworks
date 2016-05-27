@@ -20,6 +20,23 @@ namespace about.me.Models
         }
     }
 
+    /// <summary>
+    /// Contexto para los perfiles
+    /// </summary>
+    public class ProfileContext : DbContext
+    {
+        public ProfileContext() : base("DefaultConnection") { }
+
+        public DbSet<Contact_Profile> Contacts { get; set; }
+        public DbSet<Education> Educations { get; set; }
+        public DbSet<Experience> Experiences { get; set; }
+        public DbSet<Habilities> Habilities { get; set; }
+        public DbSet<Profile> Profiles { get; set; }
+    }
+
+    /// <summary>
+    /// Contexto para la aplicacion 
+    /// </summary>
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext() : base("DefaultConnection", throwIfV1Schema: false) { }

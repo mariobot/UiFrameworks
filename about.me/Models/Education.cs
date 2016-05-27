@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace about.me.Models
 {
@@ -9,9 +9,12 @@ namespace about.me.Models
     {
         public Education() { }
 
-        public Int64 ID { get; set; }
+        [Key]
+        public Int64 EducationID { get; set; }
 
-        public Int64 ID_Profile { get; set; }
+        [ForeignKey("ProfileID")]
+        public Int64 ProfileID { get; set; }
+        public virtual Profile Profile { get; set; }
 
         public string NameCareer { get; set; }
 
@@ -25,6 +28,6 @@ namespace about.me.Models
 
         public string Description { get; set; }
 
-        public ICollection<Profile> Profiles { get; set; }
+        //public virtual ICollection<Profile> Profiles { get; set; }
     }
 }
