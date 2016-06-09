@@ -21,6 +21,6 @@ namespace about.me.Models
         [Range(0, 100, ErrorMessage = "Seleccione un valor de 0 a 100")]
         public int Porcentage { get; set; }
 
-        //public virtual ICollection<Profile> Profiles { get; set; }
+        //public virtual ICollection<Profile> Profile { get; set; }
     }
 }

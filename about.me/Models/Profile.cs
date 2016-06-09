@@ -8,7 +8,7 @@ namespace about.me.Models
 {
     public class Profile
     {
-        public Profile() { }
+        //public Profile() { }
 
         [Key]
         public Int64 ProfileID { get; set; }
@@ -18,7 +18,6 @@ namespace about.me.Models
 
         [Required]
         public string LastName { get; set; }
-
         
         public string Profesion { get; set; }
 

@@ -35,6 +35,6 @@ namespace about.me.Models
         [DataType(DataType.Url)]
         public string  Linkedin { get; set; }
 
-        //public virtual ICollection<Profile> Profiles { get; set; }
+        //public virtual ICollection<Profile> Profile { get; set; }
     }
 }

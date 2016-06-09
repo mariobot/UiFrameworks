@@ -28,6 +28,6 @@ namespace about.me.Models
 
         public string Description { get; set; }
 
-        //public virtual ICollection<Profile> Profiles { get; set; }
+        //public virtual ICollection<Profile> Profile { get; set; }
     }
 }

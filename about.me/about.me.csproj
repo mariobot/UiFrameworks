@@ -263,6 +263,10 @@
     <Content Include="images\25866210362_22fa12c48e_b.jpg" />
     <Content Include="images\26198593986_04d42e2011_b.jpg" />
     <Content Include="images\5179869301_48495014eb_b.jpg" />
+    <Content Include="images\Blue.png" />
+    <Content Include="images\Gray.png" />
+    <Content Include="images\Green.png" />
+    <Content Include="images\Orange.png" />
     <Content Include="images\tm-bg-slide-1.jpg" />
     <Content Include="images\tm-bg-slide-2.jpg" />
     <Content Include="images\tm-bg-slide-3.jpg" />

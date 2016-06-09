@@ -10,7 +10,7 @@ namespace about.me.Controllers
     {
         public ActionResult Index()
         {
-	  return View();
+            return View();
         }
     }
 }
