@@ -3,3 +3,4 @@ C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Bluepr
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Blueprint\bin\Blueprint.pdb
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Blueprint\obj\Debug\Blueprint.dll
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Blueprint\obj\Debug\Blueprint.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Blueprint\obj\Debug\Blueprint.csprojResolveAssemblyReference.cache

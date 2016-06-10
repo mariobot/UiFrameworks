@@ -7,13 +7,13 @@ namespace about.me.Models
 {
     public class Experience
     {
-        public Experience() { }
+        //public Experience() { }
 
         [Key]
         public Int64 ExperienceID { get; set; }
-
-        [ForeignKey("ProfileID")]
+        
         public Int64 ProfileID { get; set; }
+        [ForeignKey("ProfileID")]
         public virtual Profile Profile { get; set; }
 
         public string NameCharge { get; set; }
@@ -28,6 +28,6 @@ namespace about.me.Models
 
         public string Description { get; set; }
 
-        //public virtual ICollection<Profile> Profile { get; set; }
+        public virtual ICollection<Profile> Profiles { get; set; }
     }
 }

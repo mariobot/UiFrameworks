@@ -61,3 +61,5 @@ C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\about.
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\about.me\obj\Debug\about.me.csprojResolveAssemblyReference.cache
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\about.me\obj\Debug\about.me.dll
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\about.me\obj\Debug\about.me.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\about.me\obj\Debug\about.me.Migrations.first_migration.resources
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\about.me\obj\Debug\about.me.csproj.GenerateResource.Cache

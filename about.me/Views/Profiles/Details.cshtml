@@ -1,0 +1,89 @@
+﻿@model about.me.Models.Profile
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProfileID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+<div>
+    <h4>Profile</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Profesion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Profesion)
+        </dd>
+    </dl>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>Contact</h3>
+        Direction: @Model.Contact.Direction <br />
+        Email: @Model.Contact.Email <br />
+        Phone: @Model.Contact.Phone <br />
+        Facebook: @Model.Contact.Facebook <br />
+        LinkedIn: @Model.Contact.Linkedin <br />
+        Twitter: @Model.Contact.Twitter <br />
+        Website: @Model.Contact.Website 
+    </div>
+    <div class="col-md-4">
+        <h3>Education</h3>
+        @foreach (var item in Model.Education)
+        {
+            <div>
+                Career: @item.NameCareer <br />
+                University: @item.NameUniversity <br />
+                Date: @item.DateStart - @item.DateEnd <br />
+                ShortDescription: @item.ShortDescription<br />
+                Description: @item.Description
+            </div>
+        }
+    </div>
+    <div class="col-md-4">
+        <h3>Experience</h3>
+        @foreach (var item in Model.Experience)
+        {
+            <div>
+                Company: @item.Company <br />
+                Charge: @item.NameCharge <br />
+                Date: @item.DateStart - @item.DateEnd <br />
+                ShortDescription: @item.ShortDescription<br />
+                Description @item.Description
+            </div>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>Habilities</h3>
+        @Model.Hability.NameHability @Model.Hability.Porcentage %
+    </div>
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-4">
+
+    </div>
+</div>

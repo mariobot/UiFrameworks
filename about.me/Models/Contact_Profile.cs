@@ -7,14 +7,14 @@ namespace about.me.Models
 {
     public class Contact_Profile
     {
-        public Contact_Profile() { }
+        //public Contact_Profile() { }
 
         [Key]
         public Int64 Contact_ProfileID { get; set; }
         
         public Int64 ProfileID { get; set; }
         [ForeignKey("ProfileID")]
-        public virtual Profile Profile { get; set; }
+        public virtual Profile Profile { get; set; }        
 
         public string Direction { get; set; }
 
@@ -35,6 +35,6 @@ namespace about.me.Models
         [DataType(DataType.Url)]
         public string  Linkedin { get; set; }
 
-        //public virtual ICollection<Profile> Profile { get; set; }
+        public virtual ICollection<Profile> Profiles { get; set; }
     }
 }

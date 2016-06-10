@@ -1,0 +1,43 @@
+﻿@model about.me.Models.Habilities
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Habilities</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Profile.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Profile.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameHability)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameHability)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Porcentage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Porcentage)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.HabilitiesID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

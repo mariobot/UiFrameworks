@@ -4,3 +4,9 @@ C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Skeleton
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Skeleton\obj\Debug\Skeleton.csprojResolveAssemblyReference.cache
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Skeleton\obj\Debug\Skeleton.dll
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\Foundation\Skeleton\obj\Debug\Skeleton.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Skeleton\bin\Skeleton.dll.config
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Skeleton\bin\Skeleton.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Skeleton\bin\Skeleton.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Skeleton\obj\Debug\Skeleton.csprojResolveAssemblyReference.cache
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Skeleton\obj\Debug\Skeleton.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Skeleton\obj\Debug\Skeleton.pdb

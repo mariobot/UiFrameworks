@@ -23,6 +23,11 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "HelpPage" }, null)</li>
+		<li>@Html.ActionLink("Perfil","Index","Profiles")</li>
+		<li>@Html.ActionLink("Contactos","Index","Contact_Profile")</li>
+		<li>@Html.ActionLink("Educacion","Index","Educations")</li>
+		<li>@Html.ActionLink("Habilidades","Index","Habilities")</li>
+		<li>@Html.ActionLink("Experiencia","Index","Experiences")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -31,7 +36,7 @@
     <div class="container body-content">
         @RenderBody()
         @RenderSection("SPAViews", required: false)        
-        <footer class="text-center navbar-fixed-bottom">
+        <footer class="text-center">
             <hr />
             <p>&copy; @DateTime.Now.Year - Sobre mi Application - by: <a href="http://about.me/mariobot">MaRioBoT</a> - from Manizales </p>
         </footer>

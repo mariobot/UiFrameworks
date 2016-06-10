@@ -1,0 +1,4 @@
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\DataAccess\obj\Debug\DataAccess.pdb
