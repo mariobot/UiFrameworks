@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Picnicss Application</title>
+
+    <link href="~/Content/picnic.min.css" rel="stylesheet" type="text/css" />
+    
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    <nav class="demo">
+        <a href="#" class="brand">
+            <img class="logo" src="/web/img/basket.png" />
+            <span>Picnic CSS</span>
+        </a>
+
+        <!-- responsive-->
+        <input id="bmenub" type="checkbox" class="show">
+        <label for="bmenub" class="burger pseudo button">menu</label>
+
+        <div class="menu">
+            <a href="@Url.Action("Test","Home")" class="pseudo button icon-picture">Test</a>
+            <a href="#" class="button icon-puzzle">Plugins</a>
+        </div>
+    </nav>
+    <div class="container">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Design by <a href="http://about.me/mariobot" target="_blank">MaRioBoT</a></p>
+        </footer>
+    </div>
+    <div class="">
+
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    
+</body>
+</html>

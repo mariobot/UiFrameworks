@@ -72,6 +72,12 @@
     <Content Include="assets\js\util.js" />
     <Content Include="images\avatar.jpg" />
     <Content Include="images\banner.jpg" />
+    <Content Include="images\Bata.jpg" />
+    <Content Include="images\cafexport.jpg" />
+    <Content Include="images\eagleWare.png" />
+    <Content Include="images\Header.png" />
+    <Content Include="images\LinkedIn_Logo.png" />
+    <Content Include="images\MarioBot512x512.png" />
     <Content Include="images\pic01.jpg" />
     <Content Include="images\pic02.jpg" />
     <Content Include="images\pic03.jpg" />
@@ -117,7 +123,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>62939</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:62939/</IISUrl>
+          <IISUrl>http://localhost:10006/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

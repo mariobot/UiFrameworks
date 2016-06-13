@@ -1,0 +1,5 @@
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryMobile\bin\JQueryMobile.dll.config
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryMobile\bin\JQueryMobile.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryMobile\bin\JQueryMobile.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryMobile\obj\Debug\JQueryMobile.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryMobile\obj\Debug\JQueryMobile.pdb

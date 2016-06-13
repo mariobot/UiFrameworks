@@ -1,0 +1,4 @@
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Model\bin\Debug\Model.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Model\bin\Debug\Model.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Model\obj\Debug\Model.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Model\obj\Debug\Model.pdb

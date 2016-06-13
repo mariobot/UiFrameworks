@@ -1,0 +1,51 @@
+﻿<!-- ko with: home -->
+<div class="jumbotron">
+    <h1>about.me</h1>
+    <p class="lead">about.me es una plataforma para crear perfiles de usuarios y exponerlos en una direccion publica, su finalidad es crear una pagina de presentacion con la finalidad de proveer la informacion basica sobre el usaurio</p>
+    <p>
+        <a href="http://about.me/mariobot" target="_blank" class="btn btn-primary btn-lg">about.me/mariobot</a>
+        <a href="~/index.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo blue</a>
+        <a href="~/index-gray.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo gray</a>
+        <a href="~/index-green.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo green</a>
+        <a href="~/index-orange.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo orange</a>
+    </p>
+    <div class="row">
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 text-center">
+        <div class="well-lg">
+            <h1>Crea tu cuenta y actualiza ya tu perfil</h1>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <a href="@Url.Action("Index","Profiles")"><h2>Perfiles</h2></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Crear una cuenta</h2>
+        <p>Registrate con un usuario y contraseña para que puedas editar tu cuenta.</p>        
+        <p><a class="btn btn-default" href="@Url.Action("Register","Account")">Registrarme</a></p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>Mi cuenta</h2>
+        <p>
+            Actuliza tu perfil, esta sera la informacion que se compartira en tu perfil, ten en cuenta que la informacion
+	        suministrada sera de acceso publico y tiene como finalidad ser una tarjeta de presentacion y contacto.             
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index","Manage")">Mi Cuenta</a></p>
+    </div>
+
+    <div class="col-md-4">
+        <h2>Comparte tu perfil</h2>
+        <p>Comparte tu perfil en redes sociales, y aprovecha tener una carta de presentacion para todo el mundo</p>
+        @Html.Partial("_SocialMedia")
+    </div>
+</div>
+
+<!-- /ko -->

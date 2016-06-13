@@ -1,0 +1,5 @@
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryUI\bin\JQueryUI.dll.config
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryUI\bin\JQueryUI.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryUI\bin\JQueryUI.pdb
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryUI\obj\Debug\JQueryUI.dll
+C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\JQueryUI\obj\Debug\JQueryUI.pdb
