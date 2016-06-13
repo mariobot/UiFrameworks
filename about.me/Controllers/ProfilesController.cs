@@ -31,8 +31,8 @@ namespace about.me.Controllers
 	  if (profile == null)
 	      return HttpNotFound();
 	  else {
-	      profile.Contact = db.Contacts.Find(id);
-	      profile.Hability = db.Habilities.Find(id);
+	      profile.Contact = db.Contacts.Where(p => p.ProfileID == id).FirstOrDefault();
+	      profile.Hability = db.Habilities.Where(p => p.ProfileID == id).FirstOrDefault();
 	      profile.Experience = db.Experiences.Where(p => p.ProfileID == id).ToList();
 	      profile.Education = db.Educations.Where(p => p.ProfileID == id).ToList();
 	  }

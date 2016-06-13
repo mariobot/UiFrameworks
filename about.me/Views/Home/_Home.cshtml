@@ -1,16 +1,46 @@
 ﻿<!-- ko with: home -->
 <div class="jumbotron">
-    <h1>about.me</h1>
-    <p class="lead">about.me es una plataforma para crear perfiles de usuarios y exponerlos en una direccion publica, su finalidad es crear una pagina de presentacion con la finalidad de proveer la informacion basica sobre el usaurio</p>
-    <p>
-        <a href="http://about.me/mariobot" target="_blank" class="btn btn-primary btn-lg">about.me/mariobot</a>
-        <a href="~/index.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo blue</a>
-        <a href="~/index-gray.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo gray</a>
-        <a href="~/index-green.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo green</a>
-        <a href="~/index-orange.html" class="btn btn-primary btn-lg" target="_blank"> Ejemplo orange</a>
-    </p>
     <div class="row">
-
+        <div class="col-md-3">
+            <h1>Mi Perfil</h1>
+        </div>
+        <div class="col-md-9">
+            <p class="lead text-info">Es una plataforma para crear perfiles de usuarios y exponerlos en una direccion publica, su finalidad es crear una pagina de presentacion con la finalidad de proveer la informacion basica sobre el usaurio</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img class="img-thumbnail" src="~/images/Blue.png" />
+                <div class="text-center">
+                    <a href="~/index.html" class="btn btn-primary btn-lg" target="_blank"> Perfil en Azul</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img class="img-thumbnail" src="~/images/Gray.png" />
+                <div class="text-center">
+                    <a href="~/index-gray.html" class="btn btn-primary btn-lg" target="_blank"> Fondo Gris</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img class="img-thumbnail" src="~/images/Green.png" />
+                <div class="text-center">
+                    <a href="~/index-green.html" class="btn btn-primary btn-lg" target="_blank"> Fondo Verde</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+                <img class="img-thumbnail" src="~/images/Orange.png" />
+                <div class="text-center">
+                    <a href="~/index-orange.html" class="btn btn-primary btn-lg" target="_blank"> Fondo Naranje</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="row">
@@ -28,7 +58,7 @@
 <div class="row">
     <div class="col-md-4">
         <h2>Crear una cuenta</h2>
-        <p>Registrate con un usuario y contraseña para que puedas editar tu cuenta.</p>        
+        <p>Registrate con un usuario y contraseña para que puedas editar tu cuenta.</p>
         <p><a class="btn btn-default" href="@Url.Action("Register","Account")">Registrarme</a></p>
     </div>
 
@@ -36,7 +66,7 @@
         <h2>Mi cuenta</h2>
         <p>
             Actuliza tu perfil, esta sera la informacion que se compartira en tu perfil, ten en cuenta que la informacion
-	        suministrada sera de acceso publico y tiene como finalidad ser una tarjeta de presentacion y contacto.             
+            suministrada sera de acceso publico y tiene como finalidad ser una tarjeta de presentacion y contacto.
         </p>
         <p><a class="btn btn-default" href="@Url.Action("Index","Manage")">Mi Cuenta</a></p>
     </div>
