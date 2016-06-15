@@ -98,14 +98,10 @@ namespace about.me.Controllers
         public ActionResult Delete(long? id)
         {
             if (id == null)
-            {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             Education education = db.Educations.Find(id);
             if (education == null)
-            {
                 return HttpNotFound();
-            }
             return View(education);
         }
 

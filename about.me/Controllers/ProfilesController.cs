@@ -23,20 +23,42 @@ namespace about.me.Controllers
         // GET: Profiles/Details/5
         public ActionResult Details(long? id)
         {
-            if (id == null)            
+            if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            
-            Profile profile = db.Profiles.Find(id);	  
 
-	  if (profile == null)
-	      return HttpNotFound();
-	  else {
-	      profile.Contact = db.Contacts.Where(p => p.ProfileID == id).FirstOrDefault();
-	      profile.Hability = db.Habilities.Where(p => p.ProfileID == id).FirstOrDefault();
-	      profile.Experience = db.Experiences.Where(p => p.ProfileID == id).ToList();
-	      profile.Education = db.Educations.Where(p => p.ProfileID == id).ToList();
-	  }
-            
+            Profile profile = db.Profiles.Find(id);
+
+            if (profile == null)
+                return HttpNotFound();
+            else
+            {
+                profile.Contact = db.Contacts.Where(p => p.ProfileID == id).FirstOrDefault();
+                profile.Hability = db.Habilities.Where(p => p.ProfileID == id).FirstOrDefault();
+                profile.Experience = db.Experiences.Where(p => p.ProfileID == id).ToList();
+                profile.Education = db.Educations.Where(p => p.ProfileID == id).ToList();
+            }
+
+            return View(profile);
+        }
+
+        // GET: Profiles/Details/5
+        public ActionResult About(long? id)
+        {
+            if (id == null)
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
+            Profile profile = db.Profiles.Find(id);
+
+            if (profile == null)
+                return HttpNotFound();
+            else
+            {
+                profile.Contact = db.Contacts.Where(p => p.ProfileID == id).FirstOrDefault();
+                profile.Hability = db.Habilities.Where(p => p.ProfileID == id).FirstOrDefault();
+                profile.Experience = db.Experiences.Where(p => p.ProfileID == id).ToList();
+                profile.Education = db.Educations.Where(p => p.ProfileID == id).ToList();
+            }
+
             return View(profile);
         }
 
@@ -67,14 +89,10 @@ namespace about.me.Controllers
         public ActionResult Edit(long? id)
         {
             if (id == null)
-            {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             Profile profile = db.Profiles.Find(id);
             if (profile == null)
-            {
                 return HttpNotFound();
-            }
             return View(profile);
         }
 
@@ -98,14 +116,10 @@ namespace about.me.Controllers
         public ActionResult Delete(long? id)
         {
             if (id == null)
-            {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             Profile profile = db.Profiles.Find(id);
             if (profile == null)
-            {
                 return HttpNotFound();
-            }
             return View(profile);
         }
 
@@ -122,8 +136,8 @@ namespace about.me.Controllers
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)            
-                db.Dispose();            
+            if (disposing)
+                db.Dispose();
             base.Dispose(disposing);
         }
     }

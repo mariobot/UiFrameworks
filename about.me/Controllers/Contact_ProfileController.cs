@@ -24,13 +24,13 @@ namespace about.me.Controllers
         // GET: Contact_Profile/Details/5
         public ActionResult Details(long? id)
         {
-            if (id == null)            
+            if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            
+
             Contact_Profile contact_Profile = db.Contacts.Find(id);
-            if (contact_Profile == null)            
+            if (contact_Profile == null)
                 return HttpNotFound();
-            
+
             return View(contact_Profile);
         }
 
@@ -64,13 +64,13 @@ namespace about.me.Controllers
         {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            
-	  Contact_Profile contact_Profile = db.Contacts.Find(id);
-            
-	  if (contact_Profile == null)
+
+            Contact_Profile contact_Profile = db.Contacts.Find(id);
+
+            if (contact_Profile == null)
                 return HttpNotFound();
-            
-	  ViewBag.ProfileID = new SelectList(db.Profiles, "ProfileID", "FirstName", contact_Profile.ProfileID);
+
+            ViewBag.ProfileID = new SelectList(db.Profiles, "ProfileID", "FirstName", contact_Profile.ProfileID);
             return View(contact_Profile);
         }
 
@@ -96,12 +96,12 @@ namespace about.me.Controllers
         {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            
-	  Contact_Profile contact_Profile = db.Contacts.Find(id);
+
+            Contact_Profile contact_Profile = db.Contacts.Find(id);
             if (contact_Profile == null)
                 return HttpNotFound();
-            
-	  return View(contact_Profile);
+
+            return View(contact_Profile);
         }
 
         // POST: Contact_Profile/Delete/5
@@ -117,7 +117,7 @@ namespace about.me.Controllers
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)            
+            if (disposing)
                 db.Dispose();
             base.Dispose(disposing);
         }

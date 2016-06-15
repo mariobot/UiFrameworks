@@ -8,10 +8,13 @@
 <h2>Perfiles</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create", null, new { @class="btn btn-default"})
+    @Html.ActionLink("Crear Nuevo", "Create", null, new { @class = "btn btn-default" })
 </p>
 <table class="table">
     <tr>
+        <th>
+            VER PERFIL
+        </th>
         <th>
             @Html.DisplayNameFor(model => model.FirstName)
         </th>
@@ -24,23 +27,30 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.FirstName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.LastName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Profesion)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ProfileID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ProfileID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ProfileID })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="@Url.Action("About", new { id=item.ProfileID })" target="_blank">
+                    <img width="50px" src="~/images/profile.png" class="img-thumbnail img-responsive" />
+                    <label>@item.FirstName @item.LastName</label>
+                </a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Profesion)
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", new { id=item.ProfileID })"><span class="glyphicon glyphicon-edit"></span></a> |
+                <a href="@Url.Action("Details", new { id=item.ProfileID })"><span class="glyphicon glyphicon-dashboard"></span></a> |
+                <a href="@Url.Action("Delete", new { id=item.ProfileID })"><span class="glyphicon glyphicon-off"></span></a>
+            </td>
+        </tr>
+    }
 
 </table>

@@ -46,12 +46,12 @@
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
@@ -275,6 +275,8 @@
     <Content Include="images\Gray.png" />
     <Content Include="images\Green.png" />
     <Content Include="images\Orange.png" />
+    <Content Include="images\profile.jpg" />
+    <Content Include="images\profile.png" />
     <Content Include="images\tm-bg-slide-1.jpg" />
     <Content Include="images\tm-bg-slide-2.jpg" />
     <Content Include="images\tm-bg-slide-3.jpg" />
@@ -412,6 +414,8 @@
     <Content Include="Views\Experiences\Details.cshtml" />
     <Content Include="Views\Experiences\Edit.cshtml" />
     <Content Include="Views\Experiences\Index.cshtml" />
+    <Content Include="Views\Shared\_TemplateProfile.cshtml" />
+    <Content Include="Views\Profiles\About.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

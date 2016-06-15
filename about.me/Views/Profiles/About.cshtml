@@ -1,0 +1,121 @@
+﻿@model about.me.Models.Profile
+
+@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_TemplateProfile.cshtml";
+}
+
+ <!-- header section -->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <img src="~/images/profile.png" class="img-responsive img-circle tm-border" alt="templatemo easy profile">
+                <hr>
+                <h1 class="tm-title bold shadow">Hola, Soy @Model.FirstName @Model.LastName</h1>
+                <h1 class="white bold shadow">@Model.Profesion</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- about and skills section -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <div class="about">
+                <h3 class="accent">@Model.FirstName @Model.LastName</h3>
+                <h2>@Model.Profesion</h2>
+                <p><a href="mailto://@Model.Contact.Email" target="_blank">@Model.Contact.Email</a></p>
+                @Html.Partial("_SocialMedia")
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="skills">
+                <h2 class="white">Habilidades</h2>
+                <strong>@Model.Hability.NameHability</strong>
+                <span class="pull-right">@Model.Hability.Porcentage%</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-primary" role="progressbar"
+                         aria-valuenow="@Model.Hability.Porcentage" aria-valuemin="0" aria-valuemax="100" style="width: @Model.Hability.Porcentage%;"></div>
+                </div>
+                @*<strong>UI/UX Design</strong>
+                <span class="pull-right">85%</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-primary" role="progressbar"
+                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                </div>
+                <strong>Bootstrap</strong>
+                <span class="pull-right">95%</span>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-primary" role="progressbar"
+                         aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+                </div>*@
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- education and languages -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-12">
+            <div class="education">
+                <h2 class="white">Educacion</h2>
+                @foreach (var education in Model.Education)
+                {
+                    <div class="education-content">
+                        <h4 class="education-title accent">@education.NameCareer</h4>
+                        <div class="education-school">
+                            <h5>@education.NameUniversity</h5><span></span>
+                            <h5>@education.DateStart - @education.DateEnd</h5>
+                        </div>
+                        <p class="education-description">@education.Description</p>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+            <div class="languages">
+                <h2>Idiomas</h2>
+                <ul>                    
+                    <li>English / Spanish</li>
+                    <li>Chinese / Japanese</li>
+                    <li>Arabic / Hebrew</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact and experience -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-12">
+            <div class="contact">
+                <h2>Contact</h2>
+                <p><i class="fa fa-map-marker"></i> @Model.Contact.Direction</p>
+                <p><i class="fa fa-phone"></i>@Model.Contact.Phone</p>
+                <p><i class="fa fa-envelope"></i><a href="mailto://@Model.Contact.Email" target="_blank">@Model.Contact.Email</a></p>
+                <p><i class="fa fa-globe"></i><a href="@Model.Contact.Website" target="_blank">@Model.Contact.Website</a></p>
+                <p><i class="fa fa-facebook"></i><a href="@Model.Contact.Facebook" target="_blank">@Model.Contact.Facebook</a></p>
+                <p><i class="fa fa-linkedin"></i><a href="@Model.Contact.Linkedin" target="_blank">@Model.Contact.Linkedin</a></p>
+                <p><i class="fa fa-twitter"></i><a href="@Model.Contact.Twitter" target="_blank">@Model.Contact.Twitter</a></p>
+            </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <div class="experience">
+                <h2 class="white">Experiencia</h2>
+                @foreach (var experience in Model.Experience)
+                {
+                    <div class="experience-content">
+                        <h4 class="experience-title accent">@experience.NameCharge</h4>
+                        <h5>@experience.Company</h5><span></span>
+                        <h5>@experience.DateStart - @experience.DateEnd</h5>
+                        <p class="education-description">@experience.Description</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

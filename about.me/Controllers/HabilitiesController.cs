@@ -26,12 +26,12 @@ namespace about.me.Controllers
         {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            
-	  Habilities habilities = db.Habilities.Find(id);
+
+            Habilities habilities = db.Habilities.Find(id);
             if (habilities == null)
                 return HttpNotFound();
-            
-	  return View(habilities);
+
+            return View(habilities);
         }
 
         // GET: Habilities/Create
@@ -64,12 +64,12 @@ namespace about.me.Controllers
         {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            
-	  Habilities habilities = db.Habilities.Find(id);
+
+            Habilities habilities = db.Habilities.Find(id);
             if (habilities == null)
                 return HttpNotFound();
-            
-	  ViewBag.ProfileID = new SelectList(db.Profiles, "ProfileID", "FirstName", habilities.ProfileID);
+
+            ViewBag.ProfileID = new SelectList(db.Profiles, "ProfileID", "FirstName", habilities.ProfileID);
             return View(habilities);
         }
 
@@ -86,10 +86,10 @@ namespace about.me.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            
-	  ViewBag.ProfileID = new SelectList(db.Profiles, "ProfileID", "FirstName", habilities.ProfileID);
-            
-	  return View(habilities);
+
+            ViewBag.ProfileID = new SelectList(db.Profiles, "ProfileID", "FirstName", habilities.ProfileID);
+
+            return View(habilities);
         }
 
         // GET: Habilities/Delete/5
@@ -97,13 +97,13 @@ namespace about.me.Controllers
         {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            
-	  Habilities habilities = db.Habilities.Find(id);
-            
-	  if (habilities == null)
+
+            Habilities habilities = db.Habilities.Find(id);
+
+            if (habilities == null)
                 return HttpNotFound();
-            
-	  return View(habilities);
+
+            return View(habilities);
         }
 
         // POST: Habilities/Delete/5
