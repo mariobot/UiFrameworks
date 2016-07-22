@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Informacion de Contacto</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a href="@Url.Action("Create")" class="btn btn-success">Crear Nuevo Perfil</a>
 </p>
 <table class="table">
     <tr>
@@ -27,7 +27,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Website)
         </th>
-        <th>
+        <th>            
             @Html.DisplayNameFor(model => model.Facebook)
         </th>
         <th>
@@ -66,9 +66,9 @@
             @Html.DisplayFor(modelItem => item.Linkedin)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Contact_ProfileID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Contact_ProfileID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Contact_ProfileID })
+            <a href="@Url.Action("Edit",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-edit"></span></a>
+            <a href="@Url.Action("Details",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-list"></span></a>
+            <a href="@Url.Action("Delete",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-remove-circle"></span></a>
         </td>
     </tr>
 }
