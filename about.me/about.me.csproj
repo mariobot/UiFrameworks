@@ -249,6 +249,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\ProfileCard.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\templatemo-blue.css" />
     <Content Include="Content\templatemo-gray.css" />

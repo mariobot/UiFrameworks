@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<about.me.Models.Contact_Profile>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Informacion de Contacto";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Informacion de Contacto</h2>
 
 <p>
-    <a href="@Url.Action("Create")" class="btn btn-success">Crear Nuevo Perfil</a>
+    <a href="@Url.Action("Create")" class="btn btn-success">Crear Nueva informacion de Contacto</a>
 </p>
 <table class="table">
     <tr>
@@ -27,7 +27,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Website)
         </th>
-        <th>            
+        <th>
             @Html.DisplayNameFor(model => model.Facebook)
         </th>
         <th>
@@ -39,38 +39,47 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Profile.FirstName)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Direction)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Phone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Website)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Facebook)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Twitter)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Linkedin)
-        </td>
-        <td>
-            <a href="@Url.Action("Edit",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-edit"></span></a>
-            <a href="@Url.Action("Details",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-list"></span></a>
-            <a href="@Url.Action("Delete",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-remove-circle"></span></a>
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Profile.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <a href="@item.Website" target="_blank" title="@item.Website">
+                    <img src="~/images/SocialMedia/safari.png" class="img-responsive" style="width:25px" />
+                </a>
+            </td>
+            <td>
+                <a href="@item.Facebook" target="_blank" title="@item.Facebook">
+                    <img src="~/images/SocialMedia/facebook.png" class="img-responsive" style="width:25px" />
+                </a>                
+            </td>
+            <td>
+                <a href="@item.Twitter" target="_blank" title="@item.Twitter">
+                    <img src="~/images/SocialMedia/twitter.png" class="img-responsive" style="width:25px" />
+                </a>                
+            </td>
+            <td>
+                <a href="@item.Linkedin" target="_blank" title="@item.Linkedin">
+                    <img src="~/images/SocialMedia/linkedin.png" class="img-responsive" style="width:25px"/>
+                </a>                
+            </td>
+            <td>
+                <a href="@Url.Action("Edit",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-edit" style="font-size:25px"></span></a>
+                <a href="@Url.Action("Details",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-list" style="font-size:25px"></span></a>
+                <a href="@Url.Action("Delete",new { id=item.Contact_ProfileID })"><span class="glyphicon glyphicon-remove-circle" style="font-size:25px"></span></a>
+            </td>
+        </tr>
+    }
 
 </table>
