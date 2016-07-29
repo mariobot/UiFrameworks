@@ -27,6 +27,6 @@ namespace about.me.Models
 
         public virtual ICollection<Experience> Experience { get; set; }
 
-        public virtual Habilities Hability { get; set; }	  
+        public virtual ICollection<Habilities> Habilities { get; set; }	  
     }
 }

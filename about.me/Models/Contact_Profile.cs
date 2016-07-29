@@ -20,6 +20,8 @@ namespace about.me.Models
 
         public string Phone { get; set; }
 
+        public string Cellphone { get; set; }        
+
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
@@ -35,6 +37,9 @@ namespace about.me.Models
         [DataType(DataType.Url)]
         public string  Linkedin { get; set; }
 
+        public string Skype { get; set; }
+
         public virtual ICollection<Profile> Profiles { get; set; }
+        public virtual ICollection<File> Files { get; set; }
     }
 }

@@ -33,7 +33,7 @@ namespace about.me.Controllers
             else
             {
                 profile.Contact = db.Contacts.Where(p => p.ProfileID == id).FirstOrDefault();
-                profile.Hability = db.Habilities.Where(p => p.ProfileID == id).FirstOrDefault();
+                profile.Habilities = db.Habilities.Where(p => p.ProfileID == id).ToList();
                 profile.Experience = db.Experiences.Where(p => p.ProfileID == id).ToList();
                 profile.Education = db.Educations.Where(p => p.ProfileID == id).ToList();
             }
@@ -54,7 +54,7 @@ namespace about.me.Controllers
             else
             {
                 profile.Contact = db.Contacts.Where(p => p.ProfileID == id).FirstOrDefault();
-                profile.Hability = db.Habilities.Where(p => p.ProfileID == id).FirstOrDefault();
+                profile.Habilities = db.Habilities.Where(p => p.ProfileID == id).ToList();
                 profile.Experience = db.Experiences.Where(p => p.ProfileID == id).ToList();
                 profile.Education = db.Educations.Where(p => p.ProfileID == id).ToList();
             }

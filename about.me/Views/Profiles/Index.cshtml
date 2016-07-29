@@ -34,8 +34,8 @@
                 </a>
                 <div class="media-body update-card-body">
                     <h4 class="media-heading">@item.FirstName @item.LastName</h4>
-                    <h6 class="media-heading"></h6>
                     <div class="btn-toolbar card-body-social" role="toolbar">
+                        <h5>HABILIDADES</h5>
                         <a href="">
                             <div class="btn-group fa fa-send-o send"></div>
                         </a> 
@@ -43,11 +43,12 @@
                         <div class="btn-group twitter fa fa-twitter"></div>
                         <div class="btn-group facebook fa fa-facebook"></div>
                         <div class="btn-group google-plus fa fa-google-plus"></div>
+                        <br />
                     </div>
                 </div>
                 <a href="@Url.Action("About", new { id=item.ProfileID })" target="_blank">
                     <p class="text-center card-bottom-status">
-                        VER PERFIL
+                        Perfil de @item.FirstName @item.LastName 
                     </p>
                 </a>                
             </div>            

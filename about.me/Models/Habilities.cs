@@ -7,8 +7,6 @@ namespace about.me.Models
 {
     public class Habilities
     {
-        //public Habilities() { }
-
         [Key]
         public Int64 HabilitiesID { get; set; }
 

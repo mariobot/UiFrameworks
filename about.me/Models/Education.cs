@@ -12,7 +12,6 @@ namespace about.me.Models
         [Key]
         public Int64 EducationID { get; set; }
 
-        
         public Int64 ProfileID { get; set; }
         [ForeignKey("ProfileID")]
         public virtual Profile Profile { get; set; }        

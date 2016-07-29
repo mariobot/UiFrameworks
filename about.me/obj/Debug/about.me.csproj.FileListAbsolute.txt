@@ -193,3 +193,4 @@ C:\Desarrollo\UiFrameworks\about.me\obj\Debug\about.me.Migrations.first_migratio
 C:\Desarrollo\UiFrameworks\about.me\obj\Debug\about.me.csproj.GenerateResource.Cache
 C:\Desarrollo\UiFrameworks\about.me\obj\Debug\about.me.dll
 C:\Desarrollo\UiFrameworks\about.me\obj\Debug\about.me.pdb
+C:\Desarrollo\UiFrameworks\about.me\obj\Debug\about.me.Migrations.addfileclass.resources

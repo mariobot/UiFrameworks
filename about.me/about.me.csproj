@@ -222,11 +222,16 @@
     <Compile Include="Migrations\201606101345107_first_migration.Designer.cs">
       <DependentUpon>201606101345107_first_migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201607292249325_add file class.cs" />
+    <Compile Include="Migrations\201607292249325_add file class.Designer.cs">
+      <DependentUpon>201607292249325_add file class.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Contact_Profile.cs" />
     <Compile Include="Models\Education.cs" />
     <Compile Include="Models\Experience.cs" />
+    <Compile Include="Models\File.cs" />
     <Compile Include="Models\Habilities.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -444,6 +449,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201606101345107_first_migration.resx">
       <DependentUpon>201606101345107_first_migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607292249325_add file class.resx">
+      <DependentUpon>201607292249325_add file class.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

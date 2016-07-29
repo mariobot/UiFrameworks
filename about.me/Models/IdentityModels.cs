@@ -18,6 +18,11 @@ namespace about.me.Models
         public DbSet<Experience> Experiences { get; set; }
         public DbSet<Habilities> Habilities { get; set; }
         public DbSet<Profile> Profiles { get; set; }
+        public DbSet<File> Files { get; set; }
+
+        //Pendiente seguir en
+        //http://www.mikesdotnetting.com/article/259/asp-net-mvc-5-with-ef-6-working-with-files
+
     }
 
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
