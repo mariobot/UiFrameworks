@@ -1,7 +1,7 @@
 ﻿@model about.me.Models.Profile
 
 @{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About " + Model.FirstName + " " + Model.LastName ;
     Layout = "~/Views/Shared/_TemplateProfile.cshtml";
 }
 
@@ -33,24 +33,15 @@
         <div class="col-md-6 col-sm-12">
             <div class="skills">
                 <h2 class="white">Habilidades</h2>
-                <strong>@Model.Hability.NameHability</strong>
-                <span class="pull-right">@Model.Hability.Porcentage%</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" role="progressbar"
-                         aria-valuenow="@Model.Hability.Porcentage" aria-valuemin="0" aria-valuemax="100" style="width: @Model.Hability.Porcentage%;"></div>
-                </div>
-                @*<strong>UI/UX Design</strong>
-                <span class="pull-right">85%</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" role="progressbar"
-                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-                </div>
-                <strong>Bootstrap</strong>
-                <span class="pull-right">95%</span>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" role="progressbar"
-                         aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-                </div>*@
+                @foreach (var item in Model.Habilities)
+                {                    
+                    <strong>@item.NameHability</strong>
+                    <span class="pull-right">@item.Porcentage%</span>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary" role="progressbar"
+                             aria-valuenow="@item.Porcentage" aria-valuemin="0" aria-valuemax="100" style="width: @item.Porcentage%;"></div>
+                    </div>
+                }
             </div>
         </div>
     </div>

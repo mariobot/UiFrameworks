@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<about.me.Models.Habilities>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Habilidades";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Habilidades</h2>
 
 <p>
-    @Html.ActionLink("Crear", "Create")
+    @Html.ActionLink("Adicionar Habilidad", "Create", null, htmlAttributes: new { @class="btn btn-success"})
 </p>
 <table class="table">
     <tr>
@@ -32,13 +32,17 @@
         <td>
             @Html.DisplayFor(modelItem => item.NameHability)
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Porcentage)
+        <td>            
+            <span class="pull-right">@item.Porcentage%</span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-primary" role="progressbar"
+                     aria-valuenow="@item.Porcentage" aria-valuemin="0" aria-valuemax="100" style="width: @item.Porcentage%;"></div>
+            </div>            
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.HabilitiesID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.HabilitiesID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.HabilitiesID })
+            <a href="@Url.Action("Edit",new { id=item.HabilitiesID })"><span class="glyphicon glyphicon-edit"></span></a>
+            <a href="@Url.Action("Details",new { id=item.HabilitiesID })"><span class="glyphicon glyphicon-list"></span></a>
+            <a href="@Url.Action("Delete",new { id=item.HabilitiesID })"><span class="glyphicon glyphicon-remove-circle"></span></a>                        
         </td>
     </tr>
 }

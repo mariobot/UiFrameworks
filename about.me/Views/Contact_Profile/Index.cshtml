@@ -22,7 +22,13 @@
             @Html.DisplayNameFor(model => model.Phone)
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.Cellphone)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Skype)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Website)
@@ -52,7 +58,15 @@
                 @Html.DisplayFor(modelItem => item.Phone)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.Cellphone)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <a href="@item.Skype" target="_blank" title="@item.Skype">
+                    <img src="~/images/SocialMedia/skype.png" class="img-responsive" style="width:25px" />
+                </a>
             </td>
             <td>
                 <a href="@item.Website" target="_blank" title="@item.Website">

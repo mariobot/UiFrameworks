@@ -1,41 +1,18 @@
 ﻿@model about.me.Models.Profile
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalles";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ProfileID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
-<div>
-    <h4>Profile</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.FirstName)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.FirstName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LastName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Profesion)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Profesion)
-        </dd>
-    </dl>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Detalles del Perfil</h2>
+        Nombre: @Model.FirstName <br />
+        Apellido: @Model.LastName <br />
+        Profesion: @Model.Profesion <br />
+        @Html.ActionLink("Editar", "Edit", new { id = Model.ProfileID }, htmlAttributes: new { @class = "btn btn-sm btn-success" })
+    </div>
 </div>
 <div class="row">
     <div class="col-md-4">
@@ -46,7 +23,8 @@
         Facebook: @Model.Contact.Facebook <br />
         LinkedIn: @Model.Contact.Linkedin <br />
         Twitter: @Model.Contact.Twitter <br />
-        Website: @Model.Contact.Website 
+        Website: @Model.Contact.Website <br />
+        @Html.ActionLink("Editar","Edit","Contact_Profile",new { id= Model.Contact.Contact_ProfileID}, htmlAttributes: new { @class="btn btn-sm btn-success"})
     </div>
     <div class="col-md-4">
         <h3>Education</h3>
@@ -57,7 +35,8 @@
                 University: @item.NameUniversity <br />
                 Date: @item.DateStart - @item.DateEnd <br />
                 ShortDescription: @item.ShortDescription<br />
-                Description: @item.Description
+                Description: @item.Description <br />
+                @Html.ActionLink("Editar","Edit","Educations",new { id=item.EducationID}, htmlAttributes:new { @class="btn btn-sm btn-success" })
             </div>
         }
     </div>
@@ -70,7 +49,8 @@
                 Charge: @item.NameCharge <br />
                 Date: @item.DateStart - @item.DateEnd <br />
                 ShortDescription: @item.ShortDescription<br />
-                Description @item.Description
+                Description @item.Description <br />
+                @Html.ActionLink("Editar","Edit","Experiences",new { id=item.ExperienceID},htmlAttributes: new { @class="btn btn-sm btn-success"})
             </div>
         }
     </div>
@@ -78,7 +58,11 @@
 <div class="row">
     <div class="col-md-4">
         <h3>Habilities</h3>
-        @Model.Hability.NameHability @Model.Hability.Porcentage %
+        @foreach (var item in Model.Habilities)
+        {
+            @Html.ActionLink("Editar", "Edit", "Habilities", new { id = item.HabilitiesID }, htmlAttributes: new { @class = "btn btn-sm btn-success" })<span>@item.NameHability @item.Porcentage%</span> 
+            <br />
+        }
     </div>
     <div class="col-md-4">
 

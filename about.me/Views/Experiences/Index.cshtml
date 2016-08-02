@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<about.me.Models.Experience>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Experiencia";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Experiencia</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Adicionar Experiencia", "Create",null, htmlAttributes:new { @class="btn btn-success"})
 </p>
 <table class="table">
     <tr>
@@ -60,9 +60,9 @@
             @Html.DisplayFor(modelItem => item.Description)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ExperienceID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ExperienceID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ExperienceID })
+            <a href="@Url.Action("Edit",new { id=item.ExperienceID })"><span class="glyphicon glyphicon-edit"></span></a>
+            <a href="@Url.Action("Details",new { id=item.ExperienceID })"><span class="glyphicon glyphicon-list"></span></a>
+            <a href="@Url.Action("Delete",new { id=item.ExperienceID })"><span class="glyphicon glyphicon-remove-circle"></span></a>                        
         </td>
     </tr>
 }
