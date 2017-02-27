@@ -1,6 +1,0 @@
-C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Html5Template1\bin\Html5Template1.dll.config
-C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Html5Template1\bin\Html5Template1.dll
-C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Html5Template1\bin\Html5Template1.pdb
-C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Html5Template1\obj\Debug\Html5Template1.csprojResolveAssemblyReference.cache
-C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Html5Template1\obj\Debug\Html5Template1.dll
-C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Html5Template1\obj\Debug\Html5Template1.pdb

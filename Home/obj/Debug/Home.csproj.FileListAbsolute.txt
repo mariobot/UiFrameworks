@@ -10,3 +10,9 @@ C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Home\b
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Home\obj\Debug\Home.dll
 C:\Users\JuanGuillermo\Documents\Visual Studio 2013\Projects\UiFrameworks\Home\obj\Debug\Home.pdb
+C:\Desarrollo\uiframeworks\Home\bin\Home.dll.config
+C:\Desarrollo\uiframeworks\Home\bin\Home.dll
+C:\Desarrollo\uiframeworks\Home\bin\Home.pdb
+C:\Desarrollo\uiframeworks\Home\obj\Debug\Home.csprojResolveAssemblyReference.cache
+C:\Desarrollo\uiframeworks\Home\obj\Debug\Home.dll
+C:\Desarrollo\uiframeworks\Home\obj\Debug\Home.pdb
