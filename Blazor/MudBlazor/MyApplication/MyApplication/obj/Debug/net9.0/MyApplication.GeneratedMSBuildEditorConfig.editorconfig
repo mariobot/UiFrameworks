@@ -24,6 +24,42 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/BlazorComponents/Alert.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCbGF6b3JDb21wb25lbnRzXEFsZXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/BlazorComponents/Avatar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCbGF6b3JDb21wb25lbnRzXEF2YXRhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/BlazorComponents/Avatar2.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCbGF6b3JDb21wb25lbnRzXEF2YXRhcjIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/BlazorComponents/BarChar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCbGF6b3JDb21wb25lbnRzXEJhckNoYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/BlazorComponents/functionality.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCbGF6b3JDb21wb25lbnRzXGZ1bmN0aW9uYWxpdHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/Hour.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb3VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/Pages/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGF0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/Pages/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/Pages/DataGridPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXRhR3JpZFBhbmVsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/UiFrameworks/Blazor/MudBlazor/MyApplication/MyApplication/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
