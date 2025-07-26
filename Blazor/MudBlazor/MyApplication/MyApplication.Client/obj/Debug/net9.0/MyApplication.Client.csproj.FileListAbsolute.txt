@@ -202,8 +202,6 @@ D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\ne
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.oke9zqs0vc.wasm
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.bujfgvq62d.pdb
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.webassembly.js.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.bvu82j4ad3.wasm.gz
@@ -409,8 +407,6 @@ D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\ne
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.oke9zqs0vc.wasm.gz
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.bujfgvq62d.pdb.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\blazor.boot.json.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\MyApplication.Client.staticwebassets.runtime.json
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\MyApplication.Client.staticwebassets.endpoints.json
@@ -1036,9 +1032,6 @@ D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\ne
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\nl7b3hvalh-tjcz0u77k5.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\f17d52e9ew-tptq2av103.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\f02sknkwdq-lfu7j35m59.gz
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\d0hutzfwk8-oke9zqs0vc.gz
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\scxftl9261-bujfgvq62d.gz
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\l9hk9s909f-at5naec6uv.gz
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\staticwebassets.build.json
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\staticwebassets.development.json
@@ -1049,3 +1042,10 @@ D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\ne
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\refint\MyApplication.Client.dll
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\MyApplication.Client.pdb
 D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\ref\MyApplication.Client.dll
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.7xsxdhsepk.wasm
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.m9dsgrnjts.pdb
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.7xsxdhsepk.wasm.gz
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\bin\Debug\net9.0\wwwroot\_framework\MyApplication.Client.m9dsgrnjts.pdb.gz
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\d0hutzfwk8-7xsxdhsepk.gz
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\scxftl9261-m9dsgrnjts.gz
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\obj\Debug\net9.0\compressed\l9hk9s909f-fbpn3scluz.gz
