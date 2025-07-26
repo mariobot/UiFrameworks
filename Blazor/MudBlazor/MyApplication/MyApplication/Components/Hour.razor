@@ -5,14 +5,14 @@ writhe <a href=" blazor">Link</a>
 writhe <a href=" blazor">Mario Botero</a>
 
 @inherits MudComponentBase
+
 @using MudBlazor
-
 @using MudBlazor.Components
-
 @using System
 @using System.ComponentModel.DataAnnotations
-
 @using Microsoft.AspNetCore.Components
+
+
 <MudTextField T="DateTime" @bind-Value="Hour2" Label="Select Hour" InputType="InputType.Time" Format="HH:mm:ss" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.AccessTime">
     <ValidationMessage For="@(() => Hour2)" />
 </MudTextField>
