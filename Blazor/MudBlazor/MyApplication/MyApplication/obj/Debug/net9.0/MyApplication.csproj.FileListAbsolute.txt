@@ -1,8 +1,0 @@
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\MyApplication.csproj.AssemblyReference.cache
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\rpswa.dswa.cache.json
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\MyApplication.GeneratedMSBuildEditorConfig.editorconfig
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\MyApplication.AssemblyInfoInputs.cache
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\MyApplication.AssemblyInfo.cs
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\MyApplication.csproj.CoreCompileInputs.cache
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\MyApplication.MvcApplicationPartsAssemblyInfo.cache
-D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication\obj\Debug\net9.0\MyApplication.sourcelink.json
