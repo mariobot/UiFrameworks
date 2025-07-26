@@ -1,0 +1,4 @@
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\wwwroot\appsettings.Development.json
+D:\UiFrameworks\Blazor\MudBlazor\MyApplication\MyApplication.Client\wwwroot\appsettings.json
